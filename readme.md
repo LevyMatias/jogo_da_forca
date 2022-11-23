@@ -3,9 +3,11 @@
 
 Projeto simples do jogo da forca desenvolvido no programa oracle one como desafio da formação iniciante em programação.
 
+**Deploy:** <a href="https://levymatias.github.io/jogo_da_forca/" target="_blank">Projeto</a>
+
 ## ⚙️ Funcionalidades
 
-- Botão de inicar o jogo 
+- Botão de iniciar o jogo 
 - Temas relacionados com tecnologia
 - As entradas das letras é clicando nos respectivos botões no teclado da página.
 - Quando o jogador errar uma letra ela ficará vermelha
@@ -25,20 +27,18 @@ Mobile
 
 ![forca](./assets/github/jogo-da-forca-mobile.png)
 
-
-
 ## 🚀 Rodando localmente
 
 Clone o projeto
 
 ```bash
-  git clone 
+  git clone https://github.com/LevyMatias/jogo_da_forca
 ```
 
 Entre no diretório do projeto
 
 ```bash
-  cd 
+  cd jogo_da_forca/
 ```
 
 
