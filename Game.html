@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/styles/game.css">
+  <link rel="stylesheet" href="./assets/styles/base/base.css">
+  <link rel="stylesheet" href="styles/base/reset.css">
+  <title>Jogo da Forca</title>
+</head>
+<body>
+  <a href="index.html">Voltar</a>
+
+  <main>
+    <section class="forca">
+      <div class="forca__img"></div>
+    </section>
+    
+    <div class="secret-word">
+      
+    </div>
+    
+    <section class="keyboard">
+
+      <div class="btn-letters">
+        <div class="letters">
+          <button id="letter-Q" onclick="keyIsSelected('Q')">Q</button>
+          <button id="letter-W" onclick="keyIsSelected('W')">W</button>
+          <button id="letter-E" onclick="keyIsSelected('E')">E</button>
+          <button id="letter-R" onclick="keyIsSelected('R')">R</button>
+          <button id="letter-T" onclick="keyIsSelected('T')">T</button>
+          <button id="letter-Y" onclick="keyIsSelected('Y')">Y</button>
+          <button id="letter-U" onclick="keyIsSelected('U')">U</button>
+          <button id="letter-I" onclick="keyIsSelected('I')">I</button>
+          <button id="letter-O" onclick="keyIsSelected('O')">O</button>
+          <button id="letter-P" onclick="keyIsSelected('P')">P</button>
+        </div>
+        <div class="letters">
+          <button id="letter-A" onclick="keyIsSelected('A')">A</button>
+          <button id="letter-S" onclick="keyIsSelected('S')">S</button>
+          <button id="letter-D" onclick="keyIsSelected('D')">D</button>
+          <button id="letter-F" onclick="keyIsSelected('F')">F</button>
+          <button id="letter-G" onclick="keyIsSelected('G')">G</button>
+          <button id="letter-H" onclick="keyIsSelected('H')">H</button>
+          <button id="letter-J" onclick="keyIsSelected('J')">J</button>
+          <button id="letter-K" onclick="keyIsSelected('K')">K</button>
+          <button id="letter-L" onclick="keyIsSelected('L')">L</button>
+        </div>
+        <div class="letters">
+          <button id="letter-Z" onclick="keyIsSelected('Z')">Z</button>
+          <button id="letter-X" onclick="keyIsSelected('X')">X</button>
+          <button id="letter-C" onclick="keyIsSelected('C')">C</button>
+          <button id="letter-V" onclick="keyIsSelected('V')">V</button>
+          <button id="letter-B" onclick="keyIsSelected('B')">B</button>
+          <button id="letter-N" onclick="keyIsSelected('N')">N</button>
+          <button id="letter-M" onclick="keyIsSelected('M')">M</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="category">
+
+    </section>
+
+    <section class="btn-box">
+      <a class="button-link" href="Game.html">Reiniciar</a>
+      <a class="button-link" href="index.html">Desistir</a>
+    </section>
+  </main>  
+
+  <div class="modal" id="myModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalLabel"></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body" id="modalBody">
+          <p></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Save changes</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="assets/scripts/game.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

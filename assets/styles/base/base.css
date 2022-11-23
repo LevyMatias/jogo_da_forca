@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
+
+body {
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+	font-weight: 600;
+	font-family: 'Peralta', cursive; 
+	overflow-y: hidden;
+	text-decoration: none;
+	list-style: none;
+}
+
+main {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: column;
+	height: 90%;
+}
+
+main h2 {
+	font-size: 48px;
+	font-weight: bold;
+	color: #000d1d;
+	text-shadow: 1px 1px 4px rgb(74, 85, 236);
+	text-align: center;
+}
+
+.menu {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 400px;
+}
+
+.menu a {
+	width: 75%;
+	padding: 20px 0;
+	margin-top: 20px;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	border: 4px solid;
+	cursor: pointer;
+	color: #E5E5E5;
+	background-color: #000d1d;
+	border-radius: 7px;
+}
+
+.menu a:hover {
+	color: rgb(74, 85, 236);
+	border: solid 4px rgb(74, 85, 236);
+}

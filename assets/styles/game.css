@@ -1,0 +1,88 @@
+.forca {
+	width: 80%;
+	height: 40vh;
+}
+
+.forca__img {
+	background: url(../img/forca.png) no-repeat top / cover;
+	height: 100%;
+	width: 160px;
+	margin: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.keyboard {
+	padding-bottom: 1rem;
+}
+
+.letters {
+	display: flex;
+	justify-content: center;
+}
+
+.btn-box {
+	display: flex;
+	margin-top: 1rem;
+	gap: 10px;
+	width: 30%;
+	justify-content: center;
+}
+
+.button-link {
+	padding: .55rem 2rem;
+	border-radius: 5px;
+	background-color: rgb(56, 116, 207);
+	outline: none;
+	border: none;
+	color: #fff;
+	text-align: center;
+	width: 90%;
+}
+
+.button-link:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.btn-letters .letters button {
+	width: clamp(2rem, 3vw, 3rem);
+	height: clamp(2rem, 4vh, 4rem);
+	margin-right: 5px;
+	margin-top: 7px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	background-color: rgb(196, 196, 196);
+}
+
+.secret-word {
+	margin-bottom: 15px;
+	text-align: center;
+	list-style: none;
+	display: flex;
+	font-size: 1rem;
+	padding-top: .55rem;
+}
+
+.words__secret{
+	width: 16px;
+    text-align: center;
+    border-bottom: 2px solid #8f7865;
+    color: #8f7865;
+    padding: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+@media screen and (max-width: 480px) {
+	.letters {
+		width: 80%;
+		margin: auto;
+	}
+}
+@media screen and (max-width: 690px) {
+	.btn-box {
+		width: 70%;
+	}
+}
